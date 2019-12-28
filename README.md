@@ -12,7 +12,7 @@ Status : Fini :heavy_check_mark: - En Cours :houglass_flowing_sand: - Non commen
 * TP "Démineur" : [Swing] [JavaFX] : UX, MVC :x:
 
 * Exercice 1 : classes de base, agrégation, conteneurs :heavy_check_mark:
-* Exercice 2 : Compte Bancaire (gestion des exceptions) :x:
+* Exercice 2 : Compte Bancaire (gestion des exceptions) :heavy_check_mark:
 * Exercice 3 : le flood it again :x:
 
 
