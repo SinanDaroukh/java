@@ -34,7 +34,11 @@ public class Point {
         return cpt;
     }
 
-    public String toString(){
-        return "Nom de la Classe : Point\nCoordonnées en X : " + getX() + "\nCoordonnées en Y : " + getY();
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
