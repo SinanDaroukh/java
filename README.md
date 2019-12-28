@@ -1,7 +1,7 @@
 # Java :hotsprings: - ISIMA - 2nd Year Engineering School
 Exercices from the Java Course at ISIMA (Engineering School)
 
-Status : Fini :heavy_check_mark: - En Cours :houglass_flowing_sand: - Non commencé :x:
+Status : Fini :heavy_check_mark: - En Cours :hourglass_flowing_sand: - Non commencé :x:
 
 * TP "Comparaison de chaînes de caractères" :heavy_check_mark:
 * TP "Héritage" : intégré au support de cours :heavy_check_mark:
