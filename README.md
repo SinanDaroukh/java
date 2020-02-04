@@ -5,7 +5,7 @@ Status : Fini :heavy_check_mark: - En Cours :hourglass_flowing_sand: - Non comme
 
 * TP "Comparaison de chaînes de caractères" :heavy_check_mark:
 * TP "Héritage" : intégré au support de cours :heavy_check_mark:
-* TP "Pustules" : (énoncé explicite de l'exercice de cours) :x:
+* TP "Pustules" : (énoncé explicite de l'exercice de cours) :heavy_check_mark:
 * TP "Oscillo" : intégré au support de cours :x:
 * TP "Picasso" : [Swing] [JavaFX] : interface graphique, image, threads :x:
 * TP "Houzehou" : [Swing] [JavaFX]: interface, fichiers, flux et Swing :x:
