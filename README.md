@@ -1,7 +1,9 @@
-# Java :hotsprings: - ISIMA - 2nd Year Engineering School
+# Java :hotsprings: - ISIMA - 2nd and 3rd Year Engineering School
 Exercices from the Java Course at ISIMA (Engineering School)
 
 Status : Fini :heavy_check_mark: - En Cours :hourglass_flowing_sand: - Non commencé :x:
+
+ZZ2 : 
 
 * TP "Comparaison de chaînes de caractères" :heavy_check_mark:
 * TP "Héritage" : intégré au support de cours :heavy_check_mark:
@@ -15,4 +17,5 @@ Status : Fini :heavy_check_mark: - En Cours :hourglass_flowing_sand: - Non comme
 * Exercice 2 : Compte Bancaire (gestion des exceptions) :heavy_check_mark:
 * Exercice 3 : le flood it again :x:
 
+ZZ3 :
 
