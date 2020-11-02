@@ -58,7 +58,7 @@ public class Weather {
                 .append("Humidity : ").append(main.getHumidity()).append("%\n")
                 .append("Wind speed : ").append(wind.getSpeed()).append("m/s\n")
                 .append("Wind deg : ").append(wind.getDeg()).append("degrees\n")
-                .append("Wind gust : ").append(wind.getDeg()).append("m/s\n")
+                .append("Wind gust : ").append(wind.getGust()).append("m/s\n")
                 .toString();
     }
 }
