@@ -1,32 +1,31 @@
 public class Random {
-    private int integerOne;
-    private Integer integerTwo;
+    public int integerOne;
+    public Integer integerTwo;
     private double doubleOne;
-    private Double doubleTwo;
-    private float floatOne;
-    private Float floatTwo;
+    public float floatOne;
+    public String string;
 
-    public Random(int integerOne, Integer integerTwo) {
+    public Random(int integerOne) {
         this.integerOne = integerOne;
-        this.integerTwo = integerTwo;
     }
 
-    public Random(double doubleOne, Double doubleTwo) {
+    public Random(double doubleOne) {
         this.doubleOne = doubleOne;
-        this.doubleTwo = doubleTwo;
     }
 
-    public Random(float floatOne, Float floatTwo) {
+    public Random(float floatOne) {
         this.floatOne = floatOne;
-        this.floatTwo = floatTwo;
     }
 
-    public Random(int integerOne, Integer integerTwo, double doubleOne, Double doubleTwo, float floatOne, Float floatTwo) {
+    public Random(int integerOne, double doubleOne, float floatOne) {
         this.integerOne = integerOne;
-        this.integerTwo = integerTwo;
         this.doubleOne = doubleOne;
-        this.doubleTwo = doubleTwo;
         this.floatOne = floatOne;
-        this.floatTwo = floatTwo;
+    }
+
+    public void Hello(int random){ }
+
+    private String Bye() {
+        return "-Cya-";
     }
 }
