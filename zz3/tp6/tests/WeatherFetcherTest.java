@@ -10,7 +10,7 @@ public class WeatherFetcherTest extends TestCase {
         try {
             weather = weatherFetcher.getWeatherAt("Clermont-Ferrand");
         } catch (Exception e) {
-            fail("Call of callAPI() should have not failed, because a good city name was passed");
+            fail("Call of callAPI() should not have failed, because a good city name was passed");
         }
 
         assertNotNull(weather);

@@ -27,6 +27,7 @@ public class WeatherFetcher {
                 builder.append(line);
             }
             json = builder.toString();
+            System.out.println(json);
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             Weather weather = gson.fromJson(json, Weather.class);
             return weather;

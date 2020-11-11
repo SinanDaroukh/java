@@ -5,7 +5,6 @@ import java.util.Date;
 public class Weather {
 
     private Coordinates coord;
-    private String base;
     private Temperature main;
     private Wind wind;
     private Integer dt;
@@ -13,10 +12,6 @@ public class Weather {
 
     public Coordinates getCoord() {
         return coord;
-    }
-
-    public String getBase() {
-        return base;
     }
 
     public Temperature getMain() {
@@ -35,9 +30,8 @@ public class Weather {
         return name;
     }
 
-    public Weather(Coordinates coord, String base, Temperature main, Wind wind, Integer dt, String name) {
+    public Weather(Coordinates coord, Temperature main, Wind wind, Integer dt, String name) {
         this.coord = coord;
-        this.base = base;
         this.main = main;
         this.wind = wind;
         this.dt = dt;
@@ -60,7 +54,6 @@ public class Weather {
                 .append("Humidity : ").append(main.getHumidity()).append("%\n")
                 .append("Wind speed : ").append(wind.getSpeed()).append("m/s\n")
                 .append("Wind deg : ").append(wind.getDeg()).append("degrees\n")
-                .append("Wind gust : ").append(wind.getGust()).append("m/s\n")
                 .toString();
     }
 }
