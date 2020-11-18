@@ -1,20 +1,10 @@
 public class Etudiant {
-    private int id;
     private String lastname;
     private String firstname;
 
-    public Etudiant(int id, String lastname, String firstname) {
-        this.id = id;
+    public Etudiant(String lastname, String firstname) {
         this.lastname = lastname;
         this.firstname = firstname;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getLastname() {
@@ -36,8 +26,7 @@ public class Etudiant {
     @Override
     public String toString() {
         return "Etudiant{" +
-                "id=" + id +
-                ", lastname='" + lastname + '\'' +
+                "lastname='" + lastname + '\'' +
                 ", firstname='" + firstname + '\'' +
                 '}';
     }
