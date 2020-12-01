@@ -3,10 +3,11 @@
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
 Le but de ce TP étant de corriger et améliorer un des tps précédemment réalisé. 
-J'ai choisi de repartir du TP4 et d'implémenter les principes suivants :
+J'ai choisi de repartir du TP4/TP6 et d'implémenter les principes suivants :
 - Principe 0-6 / Fundamentals-6 : Encapsulate
 - Principe 2-1 / Confidential-1 : Purge sensitive information from exceptions
 - Principe 4-5 / Extend-5 : Limit the extensibility of classes and methods
+- Principe 6-9 / MUTABLE-9 : Make public static fields final
 
 # Principe 0-6 / Fundamentals-6 : Encapsulate
 Ici, il ne faut juste exposer ce qui est nécessaire. Les attributs doivent être privés et les accesseurs ne doivent pas être systématiquement créés.
@@ -73,6 +74,20 @@ public final class Wind {
 
 # Principe 6-9 / MUTABLE-9 : Make public static fields final
 Le but, ici, est de passer toutes nos constantes en finales afin qu'elles deviennent immuables.
+
+Précedemment :
+```java
+String API_KEY = "fdec5664d19caf22895d3aaf207d3d43";
+```
+
+Actuellement :
+```java
+public final class Constantes {
+    public static final String API_KEY = "fdec5664d19caf22895d3aaf207d3d43";
+}
+```
+
+
 
 
 
